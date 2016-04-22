@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern=".editorconfig" type="Ini" />
+      <mapping pattern="composer.lock" type="JSON" />
+      <mapping pattern="*.php.dist" type="PHP" />
+      <mapping pattern="processor" type="PHP" />
+      <mapping pattern=".php_cs" type="PHP" />
+      <mapping pattern="sess_11ro0hhqgnq7bifv6u129r8g05" type="PLAIN_TEXT" />
+      <mapping pattern="dev" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="Twig" />
+      <mapping ext="dist" type="YAML" />
+      <mapping pattern="static.tpl" type="nginx file type" />
+    </extensionMap>
+  </component>
+</application>

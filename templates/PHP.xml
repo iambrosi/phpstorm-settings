@@ -1,0 +1,55 @@
+<templateSet group="PHP">
+  <template name="var_export" value="var_export($SELECTION$, true)" description="Surround with var_export" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="con" value="/**&#10; * Constructor&#10; */&#10;public function __construct($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="public function __construct" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="testc" value="public function test_$NAME$($PARAMS$)&#10;{&#10;    $END$&#10;}" description="PHPUnit Test Case" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="let" value="public function let($PARAMS$)&#10;{&#10;    $END$&#10;}" description="phpspec let method" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="it" value="public function it_$NAME$($PARAMS$)&#10;{&#10;    $END$&#10;}" description="phpspec example" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="does_something" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inheritdoc" value="/**&#10; * {@inheritdoc}&#10; */" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="ipubf" value="public function $NAME$($PARAMETERS$);" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

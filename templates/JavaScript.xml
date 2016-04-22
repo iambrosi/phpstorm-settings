@@ -1,0 +1,35 @@
+<templateSet group="JavaScript">
+  <template name="setter" value="set$SETTER$: function($prop$) {&#10;    this.$prop$ = $prop$; &#10;    &#10;    return this;&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="SETTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="getter" value="get$GETTER$: function() {&#10;    return this.$prop$;&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="GETTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
